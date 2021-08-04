@@ -2,6 +2,7 @@ import { SecondMoreBotton } from "../atmos/SecondMoreBotton"
 
 export const TomatoJuice = () => {
     return(
+        <div className="w-screen">
         <div className="flex justify-between bg-white px-64 pt-36 pb-36">
             <div style={{width: '580px', height: '730px', background: '#F2F0EC'}} className="absolute pb-28">
                 <div className="text-gray-500 text-xs w-40 transform -rotate-90 relative -left-14 top-28">2021 NEW PRODUCT</div>
@@ -25,6 +26,7 @@ export const TomatoJuice = () => {
                 </div>
                 <SecondMoreBotton>商品詳細を見る</SecondMoreBotton>
             </div>
+        </div>
         </div>
     )
 }
