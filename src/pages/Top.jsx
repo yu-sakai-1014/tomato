@@ -24,10 +24,10 @@ export const Top = () => {
             <TomatoDescription/>
             <AboutSogaFarm/>
             <AboutTomato/>
-            <TomatoPhoto/>
+            <TomatoPhoto/> 
             <TomatoNews/>
-            <TomatoJuice/>
-            <TomatoProducts/> {/*以下レスポンシブ完了*/}
+            <TomatoJuice/> {/*レスポンシブ未完了*/}
+            <TomatoProducts/>
             <SecondTomatoProducts/>
             <Stories/>
             <FooterNav/>

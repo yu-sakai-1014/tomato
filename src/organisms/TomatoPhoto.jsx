@@ -1,8 +1,10 @@
 export const TomatoPhoto = () => {
     return(
-        <div className="flex justify-between items-center w-screen px-60 bg-white py-10">
-            <img src="img/home_about_02.jpg" style={{ height: '760px' }}/>
-            <img src="img/home_about_03.jpg" style={{ height: '450px' }}/>
+        <div className="xs:py-20 md:py-10 flex justify-center items-center w-screen bg-white">
+            <div className="flex xs:flex-col-reverse md:flex-row xs:justify-center  md:justify-between items-center max-w-screen-lg w-full px-6">
+                <img width="500" className="max-w-xl" src="img/home_about_02.jpg"/>
+                <img width="300" className="xs:mb-10 md:mb-0" src="img/home_about_03.jpg"/>
+            </div>
         </div>
     )
 }
