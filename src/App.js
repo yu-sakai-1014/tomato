@@ -1,11 +1,11 @@
-import './App.css';
-import { Top } from './pages/Top';
+import './App.css'
+import { Router } from './router/Router';
 // import Top from '../public/img/main_bg.jpg'
 
 function App() {
   return (
     <>
-      <Top/>
+      <Router/>
     </>
   );
 }

@@ -1,5 +1,8 @@
 import { MoreBotton } from "../atmos/MoreBotton"
 
+import { useHistory } from "react-router-dom"
+import { HighlightSpanKind } from "typescript"
+
 export const TomatoNews = () => {
     const newsList = [
         {date: '2021/07/05', title: '当園の越冬トマト・闇落ちトマトの販売について'},
@@ -7,6 +10,9 @@ export const TomatoNews = () => {
         {date: '2021/03/17', title: '曽我農園の公式オンラインショップがリニューアルオープンしました'}
     ]
 
+    const history = useHistory();
+
+    const onClickNews = () => history.push('/news/index')
     return(
         <div className="flex justify-center bg-gray-100 pt-28 pb-20">
             <div className="xs:px-10 md:flex justify-center max-w-screen-lg w-full">
@@ -20,7 +26,7 @@ export const TomatoNews = () => {
                             return(
                                 <div className="flex border-t border-gray-300 py-7 text-sm">
                                     <div className="text-gray-400 text-sm mr-6">{news.date}</div>
-                                    <div className="font-serif">{news.title}</div>
+                                    <button onClick={onClickNews} className="font-serif hover:bg-gray-300">{news.title}</button>
                                 </div>
                             )
                         })}

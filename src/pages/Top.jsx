@@ -1,8 +1,5 @@
 import { AboutSogaFarm } from "../organisms/AboutSogaFarm"
 import { AboutTomato } from "../organisms/AboutTomato"
-import { BottomTemplate } from "../templates/BottomTemplate"
-import { HeaderTemplate } from "../templates/HeaderTemplate"
-import { MiddleTemplate } from "../templates/MiddleTemplate"
 import { SecondTomatoProducts } from "../organisms/SecondTomatoProducts"
 import { SiteTop } from "../organisms/SiteTop"
 import { TomatoDescription } from "../organisms/TomatoDescription"
@@ -14,14 +11,13 @@ import { Stories } from "../organisms/Stories"
 import { FooterNav } from "../organisms/FooterNav"
 import { SiteBottom } from "../organisms/SiteBottom"
 import { TomatoJuice2 } from "../organisms/TomatoJuice2"
+import { DefaultTemplate } from "../templates/DefaultTemplate"
 
 export const Top = () => {
     return(
         <>
+            <DefaultTemplate/>
             <SiteTop/>
-            <HeaderTemplate/>
-            <MiddleTemplate/>
-            <BottomTemplate/>
             <TomatoDescription/>
             <AboutSogaFarm/>
             <AboutTomato/>
