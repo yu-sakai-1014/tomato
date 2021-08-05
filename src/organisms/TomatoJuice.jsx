@@ -2,7 +2,7 @@ import { SecondMoreBotton } from "../atmos/SecondMoreBotton"
 
 export const TomatoJuice = () => {
     return(
-        <div className="flex justify-center w-screen bg-white py-36">
+        <div className="xs:hidden lg:flex justify-center w-screen bg-white py-36">
             <div className="flex w-full"
                 style={{maxWidth:'1200px'}}>
                 <div style={{width: '650px', height: '850px', background: '#F2F0EC'}} className="absolute" >
@@ -17,13 +17,12 @@ export const TomatoJuice = () => {
                     </div>
                 </div>
                 <div className="z-10">
-                    <div className="">
-                        <p className="text-7xl font-serif tracking-wide leading-tight whitespace-nowrap"
-                            style={{position:'relative',top:'90px'}}>
-                            Etto tomato<br/>
-                            Fruits tomato<br/>
-                            Juice</p>
-                    </div>
+                    <p className="text-7xl font-serif tracking-wide leading-tight whitespace-nowrap"
+                        style={{position:'relative',top:'90px'}}>
+                        Etto tomato<br/>
+                        Fruits tomato<br/>
+                        Juice
+                    </p>
                     <div className="text-sm mt-56 leading-8 mb-6"
                         style={{position:'relative',left:'200px'}}>
                         「越冬トマト」100%の美味しさを堪能できる、食べる系トマ<br/>

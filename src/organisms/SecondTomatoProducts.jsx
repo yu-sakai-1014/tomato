@@ -13,7 +13,7 @@ export const SecondTomatoProducts = () => {
                 {tomatoItemPickUp.map((tomato) => {
                     return(
                         <div>
-                            <img src={tomato.img} className="max-w-lg"/>
+                            <img src={tomato.img} className="min-w-0 max-w-lg w-full"/>
                             <div className="relative bottom-36 left-4 -mb-28">                                    
                                 <div className="text-white font-serif mb-2 text-xs">{tomato.message}</div>
                                 <div className="text-white font-serif mb-2 tracking-widest">{tomato.title}</div>

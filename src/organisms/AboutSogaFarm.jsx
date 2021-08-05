@@ -1,7 +1,7 @@
 export const AboutSogaFarm = () => {
     return(
-        <div className="bg-white pt-20">
-            <div className="flex xs:flex-col md:flex-row md:justify-between items-center max-w-screen-xl">
+        <div className="bg-white 3xl:flex 3xl:justify-center">
+            <div className="flex pt-20 xs:flex-col md:flex-row md:justify-between items-center max-w-screen-xl 3xl:space-x-96 3xl:max-w-screen-xl">
                 <img src="img/home_about_01.jpg" width="300"/>
                 <div className="flex xs:flex-col xs:items-center md:items-start">
                     <p className="font-serif text-sm xs:mt-10 md:mt-0">ABOUT SOGA FARM</p>

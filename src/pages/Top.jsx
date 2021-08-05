@@ -13,6 +13,7 @@ import { TomatoProducts } from "../organisms/TomatoProducts"
 import { Stories } from "../organisms/Stories"
 import { FooterNav } from "../organisms/FooterNav"
 import { SiteBottom } from "../organisms/SiteBottom"
+import { TomatoJuice2 } from "../organisms/TomatoJuice2"
 
 export const Top = () => {
     return(
@@ -26,7 +27,8 @@ export const Top = () => {
             <AboutTomato/>
             <TomatoPhoto/> 
             <TomatoNews/>
-            <TomatoJuice/> {/*レスポンシブ未完了*/}
+            <TomatoJuice/>{/* 画面幅によって */}
+            <TomatoJuice2/>{/* 出し分ける */}
             <TomatoProducts/>
             <SecondTomatoProducts/>
             <Stories/>

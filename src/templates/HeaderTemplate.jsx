@@ -2,8 +2,8 @@ export const HeaderTemplate = () => {
     return(
         <div className="w-screen h-30 px-20 mt-20 flex justify-between items-center fixed top-0 z-10">
             <div className="flex">
-                <img className="mr-4" src="img/logo_mark_white.svg"/>
-                <img src="img/logo_type_white.svg"/>
+                <img style={{width:'3vw'}} className="mr-4" src="img/logo_mark_white.svg"/>
+                <img style={{width:'4vw'}} src="img/logo_type_white.svg"/>
             </div>
             <div className="flex items-center z-10 text-white">
                 <div className="ml-3">カート</div>
